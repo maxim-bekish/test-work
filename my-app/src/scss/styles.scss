@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import "./color.scss";
+@import "./header.scss";
 @import "./all_styles.scss";
 @import "./main_style.scss";
 @import "./sideBarLeft_style.scss";
 @import "./sideBaRight_style.scss";
+@import "./section_statistics.scss";
 
 body {
   background: $color-body;

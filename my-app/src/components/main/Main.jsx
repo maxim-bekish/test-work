@@ -1,15 +1,12 @@
 import React from "react";
-import search from "../../svg/search-Icon.svg";
+import Header from "./header/Header";
+import Section_statistics from "./section_statistics/Section_statistics";
+
 function Main() {
   return (
     <div className="main">
-      <section className="section-one">
-        <h1>Welcome back</h1>
-        <div className="search">
-          <img className="search__img" src={search} alt="search" />
-          <input className="search__input" type="text" placeholder="Search" />
-        </div>
-      </section>
+      <Header />
+      <Section_statistics/>
     </div>
   );
 }
