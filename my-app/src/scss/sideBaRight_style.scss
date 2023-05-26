@@ -6,7 +6,7 @@
 }
 
 button {
-  color: #3629b7;
+  color: $color-blue;
   background: $color-transparent;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ button {
 
   position: relative;
   height: 214px;
-  background-color: rgba(21, 115, 255);
+  background-color: #1573ff;
   border-radius: 23.5px;
   z-index: 0;
   span {
@@ -148,7 +148,7 @@ button {
       color: #3546b1;
     }
     &:nth-child(2) {
-      color: #7b81a6;
+      color: $color-white-lightBlue;
     }
   }
 }
@@ -157,7 +157,7 @@ button {
   font-size: 1.12rem;
   line-height: 1.68rem;
   width: 100%;
-  color: #3629b7;
+  color: $color-blue;
   display: flex;
   justify-content: space-between;
   align-items: center;

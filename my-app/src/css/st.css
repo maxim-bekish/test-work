@@ -37,43 +37,119 @@ p {
   margin: 0;
 }
 
+.chart {
+  margin: 32px 0 40px 0;
+}
+
 .chartLine {
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 29px;
+  height: 150px;
+  justify-content: center;
 }
 .chartLine hr {
   width: 779px;
   border: none;
   height: 1px;
+  z-index: 0;
   color: #ebecf1;
   border-bottom-style: dashed;
+  margin: 0;
+  padding: 0;
 }
 .chartLine hr:nth-child(4) {
   border-bottom-style: solid;
   opacity: 80%;
 }
 
-.www {
-  width: 20px;
-  height: 40px;
-  border-radius: 20px;
-  background: red;
+.chart__table__frame {
+  position: relative;
+  z-index: 1;
+  width: 16px;
+}
+.chart__table__frame .frame-red {
+  border-radius: 10px;
+  background: #3629b7;
+}
+.chart__table__frame .frame-pink {
+  border-radius: 10px;
+  background: #fbb8ff;
+  margin: 2px 0;
+}
+.chart__table__frame .frame-blue {
+  border-radius: 10px;
+  background: #ff4267;
 }
 
-.ww {
-  width: 20px;
-  height: 30px;
-  border-radius: 20px;
-  background: green;
+.chart__table {
+  margin: 32px 0 10px 0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 73px;
+  justify-content: center;
 }
 
-.w {
-  width: 20px;
-  height: 35px;
-  border-radius: 20px;
-  background: blue;
+.chart__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart__title__intake {
+  display: flex;
+  flex-direction: column;
+}
+.chart__title__intake h6 {
+  color: #494949;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 8px;
+}
+.chart__title__intake span {
+  color: #3629b7;
+  font-size: 2rem;
+  line-height: 1.75rem;
+}
+
+.chart__title__glass {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.chart__title__glass span {
+  color: #000000;
+  font-size: 0.87rem;
+  line-height: 1.31rem;
+  display: flex;
+  align-items: center;
+}
+.chart__title__glass span:nth-child(1)::before {
+  content: "•";
+  color: #3629b7;
+  font-size: 2rem;
+}
+.chart__title__glass span:nth-child(2)::before {
+  content: "•";
+  color: #fbb8ff;
+  font-size: 2rem;
+}
+.chart__title__glass span:nth-child(3)::before {
+  content: "•";
+  color: #ff4267;
+  font-size: 2rem;
+}
+
+.chart__table__time {
+  display: flex;
+  gap: 52.87px;
+  justify-content: center;
+}
+.chart__table__time span {
+  color: #8e8f8f;
+  font-size: 0.75rem;
+  line-height: 1.12rem;
 }
 
 .header {
@@ -226,7 +302,7 @@ button {
   padding: 53px 20px 41px 147px;
   position: relative;
   height: 214px;
-  background-color: rgb(21, 115, 255);
+  background-color: #1573ff;
   border-radius: 23.5px;
   z-index: 0;
 }

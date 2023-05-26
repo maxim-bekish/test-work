@@ -9,7 +9,7 @@ function Main() {
     <div className="main">
       <Header />
       <Section_statistics/>
-      {/* <Chart/> */}
+      <Chart/>
       <HydrationTips/>
 
     </div>
