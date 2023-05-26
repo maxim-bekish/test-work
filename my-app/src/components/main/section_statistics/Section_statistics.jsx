@@ -1,5 +1,7 @@
 import React from "react";
 import sun from "../../../svg/sun-icon.svg";
+import line from "../../../svg/line.svg";
+
 let radius = 20;
 
 let card = [
@@ -89,6 +91,7 @@ function Section_statistics() {
               <p>{el.text}</p>
               <p>{el.ml} ml</p>
             </div>
+            <img className="line" src={line} alt="" />
           </div>
         );
       })}
