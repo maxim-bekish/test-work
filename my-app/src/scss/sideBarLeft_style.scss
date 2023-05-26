@@ -1,3 +1,10 @@
+.aside-left{
+  border-right: 1px solid #EFECEC;
+display: flex;
+flex-direction: column;
+padding: 54px 20px 40px 25px;
+justify-content: space-between
+}
 .logo {
   display: flex;
   align-items: center;
@@ -6,7 +13,7 @@
   span {
     font-family: "Bebas Neue";
     font-size: 1.5rem;
-    line-height: 1.16rem;
+    line-height: 1.75rem;
     color: $color-blue;
   }
 }
@@ -14,9 +21,12 @@ h4 {
   font-family: "Poppins";
   color: $color-blue;
   font-size: 0.87rem;
-  line-height: 0.87rem;
+  line-height: 1.3125rem;
+
 }
 .nav__All_item {
+  padding: 0 5px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -33,7 +43,7 @@ h4 {
     a {
       color: $color-grey-lighter;
       font-size: 0.87rem;
-      line-height: 0.87rem;
+      line-height: 1.3125rem;
       &:hover {
         color: $color-black;
       }
@@ -55,7 +65,7 @@ h4 {
     .frame__a {
       color: $color-grey-darker;
       font-size: 0.75rem;
-      line-height: 0.75rem;
+      line-height: 1.12rem;
 
       &:hover {
         color: $color-black;

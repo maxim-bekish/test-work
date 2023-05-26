@@ -43,7 +43,7 @@ function SideBarLeft() {
   ];
 
   return (
-    <aside>
+    <aside className="aside-left">
       <div className="logo">
         <img src={logo} alt="logo" title="logo" />
         <span>Hydrocult</span>

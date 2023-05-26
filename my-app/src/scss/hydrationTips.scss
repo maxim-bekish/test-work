@@ -1,0 +1,80 @@
+.hydrationTips{
+  border: 1px solid #F2EEEE;
+  padding: 24px 32px;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0px 2.72px 3.71px 0px rgba(0, 0, 0, 0.083)
+}
+.hydrationTips__card {
+  display: flex;
+  gap: 24px;
+}
+.cardAll {
+  border-radius: 16px;
+  padding: 25px 30px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  .circle-div {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: $color-white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h5 {
+    color: $color-grey-darker;
+    font-size: 1rem;
+    line-height: 1.7143rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 0.81rem;
+    line-height: 1.25rem;
+    color: $color-white-lightBlue;
+  }
+}
+.cardWatermelon {
+  background: $color-lite-grin;
+}
+.cardOrange {
+  background: $color-lite-brown;
+}
+.cardGrape {
+  background: $color-lite-purpure;
+}
+.hydrationTips__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+
+  h3 {
+    color: $color-grey-darker;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.87rem;
+  }
+  p {
+    color: #8e8f8f;
+    font-size: 0.81rem;
+    line-height: 1.22rem;
+  }
+  button {
+    color: $color-white-lightBlue;
+    font-size: 1.12rem;
+    line-height: 1.75rem;
+    border: 0;
+    padding: 0;
+    background: $color-transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    svg{
+      margin-left: 13px;
+    }
+  }
+}

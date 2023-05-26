@@ -8,12 +8,13 @@
 @import "./sideBarLeft_style.scss";
 @import "./sideBaRight_style.scss";
 @import "./section_statistics.scss";
+@import "./hydrationTips.scss";
 
-body {
+html {
   background: $color-body;
   font-family: "Poppins";
   font-size: 16px;
-  line-height: 24px;
+ 
 }
 h1,
 h2,
@@ -27,10 +28,10 @@ h6 {
 }
 .container {
   border-radius: 24px;
-  background:  $color-white;
+  background: $color-white;
   display: grid;
   grid-template-columns: 248px 1fr 333px;
   grid-template-rows: 1fr;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto auto;
 }

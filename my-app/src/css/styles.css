@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-.section-one {
+.header {
+  margin: 35px 0 25px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +20,7 @@
 .search input {
   width: 100%;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.7143rem;
   color: #494949;
   border: 0;
   padding: 0;
@@ -27,13 +28,13 @@
 }
 .search input::placeholder {
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.7143rem;
   color: #494949;
 }
 
 h1 {
   font-size: 1.5rem;
-  line-height: 1.16rem;
+  line-height: 1.75rem;
   color: #3629b7;
   font-weight: 400;
   white-space: nowrap;
@@ -55,6 +56,14 @@ p {
   padding: 0 40px;
 }
 
+.aside-left {
+  border-right: 1px solid #EFECEC;
+  display: flex;
+  flex-direction: column;
+  padding: 54px 20px 40px 25px;
+  justify-content: space-between;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -63,7 +72,7 @@ p {
 .logo span {
   font-family: "Bebas Neue";
   font-size: 1.5rem;
-  line-height: 1.16rem;
+  line-height: 1.75rem;
   color: #3629b7;
 }
 
@@ -71,10 +80,12 @@ h4 {
   font-family: "Poppins";
   color: #3629b7;
   font-size: 0.87rem;
-  line-height: 0.87rem;
+  line-height: 1.3125rem;
 }
 
 .nav__All_item {
+  padding: 0 5px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -92,7 +103,7 @@ h4 {
 .nav__All_item .nav_item a {
   color: #838383;
   font-size: 0.87rem;
-  line-height: 0.87rem;
+  line-height: 1.3125rem;
 }
 .nav__All_item .nav_item a:hover {
   color: #000000;
@@ -114,7 +125,7 @@ h4 {
 .frame div .frame__a {
   color: #494949;
   font-size: 0.75rem;
-  line-height: 0.75rem;
+  line-height: 1.12rem;
 }
 .frame div .frame__a:hover {
   color: #000000;
@@ -139,7 +150,7 @@ h4 {
 .wrapper-one .wrapper__span2 {
   font-weight: 600;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.7143rem;
 }
 .wrapper-one .wrapper__span2::after {
   content: " today!";
@@ -161,6 +172,12 @@ h4 {
   display: flex;
   gap: 20px;
   padding: 20px;
+}
+.wrapper-all p:last-child {
+  margin-top: 4px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.15rem;
 }
 
 .wrapper-two {
@@ -194,11 +211,95 @@ h4 {
   grid-gap: 24px;
 }
 
-body {
+.hydrationTips {
+  border: 1px solid #F2EEEE;
+  padding: 24px 32px;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0px 2.72px 3.71px 0px rgba(0, 0, 0, 0.083);
+}
+
+.hydrationTips__card {
+  display: flex;
+  gap: 24px;
+}
+
+.cardAll {
+  border-radius: 16px;
+  padding: 25px 30px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.cardAll .circle-div {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardAll h5 {
+  color: #494949;
+  font-size: 1rem;
+  line-height: 1.7143rem;
+  font-weight: 500;
+}
+.cardAll p {
+  font-size: 0.81rem;
+  line-height: 1.25rem;
+  color: #7b81a6;
+}
+
+.cardWatermelon {
+  background: #edffef;
+}
+
+.cardOrange {
+  background: #fff2ec;
+}
+
+.cardGrape {
+  background: #f4f2ff;
+}
+
+.hydrationTips__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.hydrationTips__title h3 {
+  color: #494949;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+}
+.hydrationTips__title p {
+  color: #8e8f8f;
+  font-size: 0.81rem;
+  line-height: 1.22rem;
+}
+.hydrationTips__title button {
+  color: #7b81a6;
+  font-size: 1.12rem;
+  line-height: 1.75rem;
+  border: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.hydrationTips__title button svg {
+  margin-left: 13px;
+}
+
+html {
   background: #f2ecdb;
   font-family: "Poppins";
   font-size: 16px;
-  line-height: 24px;
 }
 
 h1,
@@ -219,7 +320,7 @@ h6 {
   grid-template-columns: 248px 1fr 333px;
   grid-template-rows: 1fr;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
