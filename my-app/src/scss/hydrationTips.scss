@@ -73,6 +73,9 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+        &:hover {
+      color: $color-black;
+    }
 
     svg{
       margin-left: 13px;

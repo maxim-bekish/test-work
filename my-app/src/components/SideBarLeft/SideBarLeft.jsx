@@ -44,24 +44,25 @@ function SideBarLeft() {
 
   return (
     <aside className="aside-left">
-      <div className="logo">
-        <img src={logo} alt="logo" title="logo" />
-        <span>Hydrocult</span>
+      <div>
+        <div className="logo">
+          <img src={logo} alt="logo" title="logo" />
+          <span>Hydrocult</span>
+        </div>
+        <nav>
+          <h4>Menu</h4>
+          <ul className="nav__All_item">
+            {navMenu.map((el) => {
+              return (
+                <li className={el.className}>
+                  <img src={el.svg} alt="icons" />
+                  <a href={el.href}>{el.value}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
       </div>
-
-      <nav>
-        <h4>Menu</h4>
-        <ul className="nav__All_item">
-          {navMenu.map((el) => {
-            return (
-              <li className={el.className}>
-                <img src={el.svg} alt="icons" />
-                <a href={el.href}>{el.value}</a>
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
       <div className="frame">
         <img className="frame__img" src={avatar} alt="" />
         <div>
