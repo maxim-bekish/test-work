@@ -24,7 +24,7 @@ h6 {
   display: grid;
   grid-template-columns: 248px 1fr 333px;
   grid-template-rows: 1fr;
-  max-width: 1440px;
+  width: 1440px;
   margin: auto auto;
   padding: 0;
 }
