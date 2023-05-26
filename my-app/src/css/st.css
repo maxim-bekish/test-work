@@ -143,7 +143,7 @@ p {
 
 .chart__table__time {
   display: flex;
-  gap: 52.87px;
+  gap: 57px;
   justify-content: center;
 }
 .chart__table__time span {
@@ -283,7 +283,7 @@ h4 {
 
 .sideBarRight {
   border-left: 1px solid #efecec;
-  padding: 58px 40px 20px 32px;
+  padding: 48px 40px 20px 32px;
 }
 
 button {

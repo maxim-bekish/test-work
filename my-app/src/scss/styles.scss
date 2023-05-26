@@ -4,9 +4,8 @@
 
 @import "./all_styles.scss";
 
-
-// @import "./chart.scss";
-@import "../components/main/chart/chart.scss";
+@import "./chart.scss";
+// @import "../components/main/chart/chart.scss";
 
 @import "./header.scss";
 //  @import "../components/main/header/header.scss";
@@ -20,3 +19,12 @@
 // @import "../components/main/section_statistics/section_statistics.scss";
 @import "./hydrationTips.scss";
 // @import "../components/main/hydrationTips/hydrationTips.scss";
+
+// Я не знаю почему, но если я раскидываю scss файлы по папкам вместе с компонентами.
+// То файлы scss которые прилетели сюда из папок с компонентами не компелируются в css.
+// Поэтаму все в куче. Модули не использовал, потому что хотел сделать без них. понял, что лучше всего и то, и то.
+// Большая часть времени ушла на таблицу. Я не знал как ее правильно реализовать. Пробовал разными способами. В итоге решил так. 
+// Хотялось бы получить обратную связь в не зависимости от резкльтата.
+// Моя почта maxamax997@gmail.com
+// Это приложения доступна по ссылке   https://test-work-tau.vercel.app/
+// Так же обо мне можно больше узнать тут https://cv-maxim-bekish.vercel.app/

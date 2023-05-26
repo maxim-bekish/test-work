@@ -4,7 +4,8 @@
 .chartLine {
   position: absolute;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  // flex-direction: column;
   gap: 29px;
   height: 150px;
   justify-content: center;
