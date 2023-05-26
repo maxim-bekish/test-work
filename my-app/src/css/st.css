@@ -160,6 +160,7 @@ p {
 }
 
 .search {
+  box-sizing: border-box;
   border-radius: 15px;
   border: 1px solid #e7e7e7;
   display: flex;
