@@ -1,8 +1,6 @@
 .sideBarRight {
-
   border-left: 1px solid #efecec;
   padding: 48px 40px 20px 32px;
-
 }
 
 button {
@@ -20,7 +18,6 @@ button {
   box-sizing: border-box;
   margin-top: 137px;
   padding: 53px 20px 41px 147px;
-
   position: relative;
   height: 214px;
   background-color: #1573ff;
@@ -60,12 +57,12 @@ button {
       left: 23px;
     }
     &:nth-child(5) {
-      // circle
+      // line
       top: 0px;
       left: 0px;
     }
     &:nth-child(6) {
-      // circle
+      // line
       top: 0px;
       left: 0px;
     }
@@ -74,7 +71,6 @@ button {
 
 .sideBarRight__cardTwo {
   box-sizing: border-box;
-
   height: 133px;
   background: #3546b1;
   padding: 31px 24px;
@@ -162,11 +158,10 @@ button {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
-
 }
 
-.sideBarRight__cardAll{
-display: flex;
-flex-direction: column;
-gap: 32px;
+.sideBarRight__cardAll {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }

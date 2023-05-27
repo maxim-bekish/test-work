@@ -1,9 +1,9 @@
-.aside-left{
-  border-right: 1px solid #EFECEC;
-display: flex;
-flex-direction: column;
-padding: 54px 20px 40px 25px;
-justify-content: space-between
+.aside-left {
+  border-right: 1px solid #efecec;
+  display: flex;
+  flex-direction: column;
+  padding: 54px 20px 40px 25px;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
@@ -23,7 +23,6 @@ h4 {
   color: $color-blue;
   font-size: 0.87rem;
   line-height: 1.3125rem;
-
 }
 .nav__All_item {
   padding: 0 5px;
@@ -54,8 +53,8 @@ h4 {
 .frame {
   display: flex;
   white-space: nowrap;
-      align-items: flex-start;
-      gap: 6.5px;
+  align-items: flex-start;
+  gap: 6.5px;
   div {
     display: flex;
     flex-direction: column;

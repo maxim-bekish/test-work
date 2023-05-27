@@ -1,29 +1,20 @@
-// $ sass --watch src/scss/styles.scss:src/css/st.css
+// $ sass --watch src/scss/styles.scss:src/css/style.css
+// $ sass src/scss/styles.scss:src/css/style.css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 @import "./all_styles.scss";
 
-@import "./chart.scss";
-// @import "../components/main/chart/chart.scss";
+@import "./../components/main/chart/chart.scss";
+@import "./../components/main/header/header";
+@import "./../components/main/main_style.scss";
+@import "./../components/SideBarLeft/sideBarLeft_style.scss";
+@import "./../components/SideBarRight/sideBaRight_style.scss";
+@import "./../components/main/section_statistics/section_statistics.scss";
+@import "./../components/main/hydrationTips/hydrationTips.scss";
 
-@import "./header.scss";
-//  @import "../components/main/header/header.scss";
-@import "./main_style.scss";
-// @import "../components/main/main_style.scss";
-@import "./sideBarLeft_style.scss";
-// @import "../components/SideBarLeft/sideBarLeft_style.scss";
-@import "./sideBaRight_style.scss";
-// @import "../components/SideBarRight/sideBaRight_style.scss";
-@import "./section_statistics.scss";
-// @import "../components/main/section_statistics/section_statistics.scss";
-@import "./hydrationTips.scss";
-// @import "../components/main/hydrationTips/hydrationTips.scss";
-
-// Я не знаю почему, но если я раскидываю scss файлы по папкам вместе с компонентами.
-// То файлы scss которые прилетели сюда из папок с компонентами не компелируются в css.
-// Поэтаму все в куче. Модули не использовал, потому что хотел сделать без них. понял, что лучше всего и то, и то.
-// Большая часть времени ушла на таблицу. Я не знал как ее правильно реализовать. Пробовал разными способами. В итоге решил так. 
+// Модули не использовал, потому что хотел сделать без них. понял, что лучше всего и то, и то.
+// Большая часть времени ушла на таблицу. Я не знал как ее правильно реализовать. Пробовал разными способами. В итоге решил так.
 // Хотялось бы получить обратную связь в не зависимости от резкльтата.
 // Моя почта maxamax997@gmail.com
 // Это приложения доступна по ссылке   https://test-work-tau.vercel.app/

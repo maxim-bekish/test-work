@@ -220,14 +220,14 @@ function SideBarRight() {
           <div className="sideBarRight__cardThree__Drink">
             <h3>Drink Log</h3>
             <button>
-              <img src={more} />
+              <img src={more} alt="" />
             </button>
           </div>
           {drinlLog.map((el) => {
             return (
               <div className="sideBarRight__cardThree__item">
                 <span>
-                  <img src={drop} /> {el.ml} ml
+                  <img src={drop} alt="" /> {el.ml} ml
                 </span>
                 <span> {el.time}</span>
               </div>
