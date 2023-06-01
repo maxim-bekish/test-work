@@ -8,6 +8,7 @@ import vectorOne from "../../svg/vector-one.svg";
 import vectorTwo from "../../svg/vector-two.svg";
 import drop from "../../svg/drop.svg";
 import more from "../../svg/more.svg";
+import "./style.scss";
 
 const drinlLog = [
   { ml: 250, time: "8:00 am" },

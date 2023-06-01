@@ -1,5 +1,5 @@
 import React from "react";
-
+import './style.scss'
 const frameItem = [
   { blue: 20, pink: 20, red: 20, time: "6 am" },
   { blue: 27, pink: 32, red: 28, time: "8 am" },

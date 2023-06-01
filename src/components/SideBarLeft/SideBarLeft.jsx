@@ -7,6 +7,7 @@ import calendar from "../../svg/calendar.svg";
 import category from "../../svg/category.svg";
 import more from "../../svg/more.svg";
 import avatar from "../../png/ellipse-1.png";
+import "./style.scss";
 
 function SideBarLeft() {
   const navMenu = [

@@ -1,7 +1,8 @@
 import React from "react";
-import orange from "../../../png/orange.png";
-import watermelon from "../../../png/watermelon.png";
-import grape from "../../../png/grape.png";
+import orange from "../../png/orange.png";
+import watermelon from "../../png/watermelon.png";
+import grape from "../../png/grape.png";
+import "./style.scss";
 let card = [
   {
     className: "Watermelon",

@@ -1,7 +1,7 @@
 import React from "react";
-import sun from "../../../svg/sun-icon.svg";
-import line from "../../../svg/line.svg";
-
+import sun from "../../svg/sun-icon.svg";
+import line from "../../svg/line.svg";
+import "./style.scss";
 let radius = 20;
 
 let card = [

@@ -1,6 +1,6 @@
 import React from "react";
-import search from "../../../svg/search-Icon.svg";
-
+import search from "../../svg/search-Icon.svg";
+import "./style.scss";
 
 function Header() {
   return (
