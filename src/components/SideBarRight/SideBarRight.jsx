@@ -10,19 +10,13 @@ import drop from "../../svg/drop.svg";
 import more from "../../svg/more.svg";
 import "./style.scss";
 
-const drinlLog = [
-  { ml: 250, time: "8:00 am" },
-  { ml: 200, time: "9:30 am" },
-  { ml: 500, time: "11:00 am" },
-  { ml: 200, time: "01:00 pm" },
-  { ml: 250, time: "03:00 pm" },
-];
 
-function SideBarRight() {
+
+function SideBarRight(props) {
   return (
     <aside className="sideBarRight">
       <button>
-        <img src={calendar} /> Tue, 24 Nov 2021{" "}
+        <img src={calendar} /> Tue, 24 Nov 2021
         <svg
           width="14"
           height="7"
@@ -224,7 +218,7 @@ function SideBarRight() {
               <img src={more} alt="" />
             </button>
           </div>
-          {drinlLog.map((el) => {
+          {props.data.map((el) => {
             return (
               <div className="sideBarRight__cardThree__item">
                 <span>

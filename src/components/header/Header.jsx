@@ -6,9 +6,13 @@ function Header() {
   return (
     <section className="header">
       <h1>Welcome back</h1>
-      <div className="search">
-        <img className="search__img" src={search} alt="search" />
-        <input className="search__input" type="text" placeholder="Search" />
+      <div className="header__search">
+        <img src={search} alt="search" />
+        <input
+          className="header__search__input"
+          type="text"
+          placeholder="Search"
+        />
       </div>
     </section>
   );

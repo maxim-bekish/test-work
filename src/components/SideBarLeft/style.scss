@@ -2,14 +2,14 @@
 @import './../../scss/styles.scss';
 
 
-.aside-left {
+.asideLeft {
   border-right: 1px solid #efecec;
   display: flex;
   flex-direction: column;
   padding: 54px 20px 40px 25px;
   justify-content: space-between;
 }
-.logo {
+.asideLeft__logo {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -28,14 +28,14 @@ h4 {
   font-size: 0.87rem;
   line-height: 1.3125rem;
 }
-.nav__All_item {
+.asideLeft__navAllItem {
   padding: 0 5px;
   margin-top: 25px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 
-  .nav_item {
+  .navItem {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -54,7 +54,7 @@ h4 {
     }
   }
 }
-.frame {
+.asideLeft__frame {
   display: flex;
   white-space: nowrap;
   align-items: flex-start;
@@ -66,7 +66,7 @@ h4 {
     span {
       color: $color-grey-darker;
     }
-    .frame__a {
+    .asideLeft__frame__a {
       color: $color-grey-darker;
       font-size: 0.75rem;
       line-height: 1.12rem;
@@ -76,7 +76,7 @@ h4 {
       }
     }
   }
-  .frame__button {
+  .asideLeft__frame__button {
     border: 0;
     background-color: $color-transparent;
     cursor: pointer;

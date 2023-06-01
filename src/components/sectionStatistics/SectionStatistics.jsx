@@ -1,50 +1,16 @@
 import React from "react";
-import sun from "../../svg/sun-icon.svg";
 import line from "../../svg/line.svg";
 import "./style.scss";
 let radius = 20;
 
-let card = [
-  {
-    colorDark: "#55A55E",
-    colorLight: "#BAE7B6",
-    percent: 80,
-    ml: 5000,
-    text: "Daily Intake",
-    className: "wrapper-two wrapper-all",
-  },
-  {
-    colorDark: "#5E5498",
-    colorLight: "#D8D3F5",
-    percent: 85,
-    ml: 2500,
-    text: "Average Intake",
-    className: "wrapper-three wrapper-all",
-  },
-  {
-    colorDark: "#9B715D",
-    colorLight: "#F3D5C8",
-    percent: 68,
-    ml: 17000,
-    text: "Total Intake",
-    className: "wrapper-four wrapper-all",
-  },
-];
-function Section_statistics() {
+function SectionStatisticsCopy(props) {
   let circumference = (x) => 2 * Math.PI * x;
   let fillingPercentage = (q) =>
     circumference(radius) - (q / 100) * circumference(radius);
 
   return (
     <section className="section_statistics">
-      <div className=" wrapper-one  ">
-        <img src={sun} alt="" />
-        <span className="wrapper__span1">26 &deg;C</span>
-        <span className="wrapper__span2">Sunny Day</span>
-        <span>Don’t forget to take your water bottle with you. </span>
-      </div>
-
-      {card.map((el) => {
+      {props.data.map((el) => {
         return (
           <div className={el.className}>
             <div>
@@ -99,4 +65,4 @@ function Section_statistics() {
   );
 }
 
-export default Section_statistics;
+export default SectionStatisticsCopy;

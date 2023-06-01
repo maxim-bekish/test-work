@@ -1,18 +1,8 @@
 import React from "react";
 import './style.scss'
-const frameItem = [
-  { blue: 20, pink: 20, red: 20, time: "6 am" },
-  { blue: 27, pink: 32, red: 28, time: "8 am" },
-  { blue: 53, pink: 43, red: 49, time: "10 am" },
-  { blue: 44, pink: 32, red: 37, time: "12 pm" },
-  { blue: 20, pink: 20, red: 20, time: "2 pm" },
-  { blue: 44, pink: 32, red: 37, time: "4 pm" },
-  { blue: 27, pink: 32, red: 28, time: "6 pm" },
-  { blue: 36, pink: 32, red: 41, time: "8 pm" },
-  { blue: 20, pink: 20, red: 20, time: "10 pm" },
-];
 
-function Chart() {
+
+function Chart(props) {
   return (
     <div className="chart">
       <div className="chart__title">
@@ -27,14 +17,14 @@ function Chart() {
         </div>
       </div>
       <div className="chart__table">
-        <div className="chartLine">
+        <div className="chart__table__line">
           <hr />
           <hr />
           <hr />
           <hr />
           <hr />
         </div>
-        {frameItem.map((el) => {
+        {props.data.map((el) => {
           return (
             <div className="chart__table__frame">
               <div style={{ height: el.blue }} className="frame-blue"></div>
@@ -45,7 +35,7 @@ function Chart() {
         })}
       </div>
       <div className="chart__table__time">
-        {frameItem.map((el) => {
+        {props.data.map((el) => {
           return <span>{el.time}</span>;
         })}
       </div>

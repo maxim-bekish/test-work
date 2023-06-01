@@ -52,7 +52,7 @@ function HydrationTips() {
       <div className="hydrationTips__card">
         {card.map((el) => {
           return (
-            <div className={`card${el.className} cardAll`}>
+            <div className={`hydrationTips__card__${el.className} cardAll`}>
               <div className="circle-div">
                 <img src={el.img} alt="" />
               </div>

@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.search {
+.header__search {
   box-sizing: border-box;
   border-radius: 15px;
   border: 1px solid #e7e7e7;
@@ -16,7 +16,7 @@
   max-height: 58px;
   padding: 19px 3px 20px 24px;
 
-  input {
+  .header__search__input {
     width: 100%;
     font-size: 1rem;
     line-height: 1.7143rem;

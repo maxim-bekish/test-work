@@ -14,45 +14,45 @@ function SideBarLeft() {
     {
       value: "Dashboard",
       href: "#",
-      className: `nav_item`,
+      className: `navItem`,
       svg: category,
     },
     {
       value: "Schedule Reminder",
       href: "#",
-      className: `nav_item`,
+      className: `navItem`,
       svg: calendar,
     },
     {
       value: "Reports",
       href: "#",
-      className: `nav_item`,
+      className: `navItem`,
       svg: pieChart,
     },
     {
       value: "Notifications",
       href: "#",
-      className: `nav_item`,
+      className: `navItem`,
       svg: notification,
     },
     {
       value: "Settings",
       href: "#",
-      className: `nav_item`,
+      className: `navItem`,
       svg: settings,
     },
   ];
 
   return (
-    <aside className="aside-left">
+    <aside className="asideLeft">
       <div>
-        <div className="logo">
+        <div className="asideLeft__logo">
           <img src={logo} alt="logo" title="logo" />
           <span>Hydrocult</span>
         </div>
         <nav>
           <h4>Menu</h4>
-          <ul className="nav__All_item">
+          <ul className="asideLeft__navAllItem">
             {navMenu.map((el) => {
               return (
                 <li className={el.className}>
@@ -64,16 +64,16 @@ function SideBarLeft() {
           </ul>
         </nav>
       </div>
-      <div className="frame">
-        <img className="frame__img" src={avatar} alt="" />
+      <div className="asideLeft__frame">
+        <img src={avatar} alt="" />
         <div>
-          <span className="frame_span"> Mathew Perry</span>
-          <a className="frame__a" href="mailto:mathewperry@xyz.com">
+          <span> Mathew Perry</span>
+          <a className="asideLeft__frame__a" href="mailto:mathewperry@xyz.com">
             mathewperry@xyz.com
           </a>
         </div>
-        <button className="frame__button">
-          <img className="frame__button__img" src={more} alt="more" />
+        <button className="asideLeft__frame__button">
+          <img src={more} alt="more" />
         </button>
       </div>
     </aside>

@@ -1,0 +1,106 @@
+{
+  "sectionStatistics": [
+    {
+      "colorDark": "#55A55E",
+      "colorLight": "#BAE7B6",
+      "percent": 80,
+      "ml": 5000,
+      "text": "Daily Intake",
+      "className": "wrapper-two wrapper-all"
+    },
+    {
+      "colorDark": "#5E5498",
+      "colorLight": "#D8D3F5",
+      "percent": 85,
+      "ml": 2500,
+      "text": "Average Intake",
+      "className": "wrapper-three wrapper-all"
+    },
+    {
+      "colorDark": "#9B715D",
+      "colorLight": "#F3D5C8",
+      "percent": 68,
+      "ml": 17000,
+      "text": "Total Intake",
+      "className": "wrapper-four wrapper-all"
+    }
+  ],
+  "chart": [
+    {
+      "blue": 20,
+      "pink": 20,
+      "red": 20,
+      "time": "6 am"
+    },
+    {
+      "blue": 27,
+      "pink": 32,
+      "red": 28,
+      "time": "8 am"
+    },
+    {
+      "blue": 53,
+      "pink": 43,
+      "red": 49,
+      "time": "10 am"
+    },
+    {
+      "blue": 44,
+      "pink": 32,
+      "red": 37,
+      "time": "12 pm"
+    },
+    {
+      "blue": 20,
+      "pink": 20,
+      "red": 20,
+      "time": "2 pm"
+    },
+    {
+      "blue": 44,
+      "pink": 32,
+      "red": 37,
+      "time": "4 pm"
+    },
+    {
+      "blue": 27,
+      "pink": 32,
+      "red": 28,
+      "time": "6 pm"
+    },
+    {
+      "blue": 36,
+      "pink": 32,
+      "red": 41,
+      "time": "8 pm"
+    },
+    {
+      "blue": 20,
+      "pink": 20,
+      "red": 20,
+      "time": "10 pm"
+    }
+  ],
+  "drinkLog": [
+    {
+      "ml": 250,
+      "time": "8:00 am"
+    },
+    {
+      "ml": 200,
+      "time": "9:30 am"
+    },
+    {
+      "ml": 500,
+      "time": "11:00 am"
+    },
+    {
+      "ml": 200,
+      "time": "01:00 pm"
+    },
+    {
+      "ml": 250,
+      "time": "03:00 pm"
+    }
+  ]
+}
